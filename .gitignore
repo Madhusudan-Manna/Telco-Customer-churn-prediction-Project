@@ -1,0 +1,39 @@
+# ── Virtual environments (never push these to GitHub) ──────
+myenv/
+venv/
+env/
+.env/
+.venv/
+
+# ── Python compiled / cache files ──────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter Notebook auto-save checkpoints ─────────────────
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ── Saved model files (generated when notebook runs) ───────
+models/*.pkl
+notebook/*.pkl
+
+# ── Dataset file (large — download separately from Kaggle) ─
+data/*.csv
+
+# ── Operating system junk ───────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor / IDE folders ────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Log files ───────────────────────────────────────────────
+*.log
